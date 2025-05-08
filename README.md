@@ -39,6 +39,7 @@ miento.
  análisis de los movimientos humanos, permitiendo la replicación de estos en el
  robot mediante el control de los actuadores(servomotores).
  </div>
-![Prototipo](prototipo2.jpg)
+![Descripción de la imagen](prototipo2.jpg)
+
 
 
