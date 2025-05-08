@@ -10,7 +10,7 @@ vimientos no es completamente precisa y se enfrenta a un ligero retraso en la
  del cuerpo humano. Para lograr esta imitación, se ha integrado un sistema de
  visión por computadora que permite al robot detectar puntos clave del cuerpo,
  como muñecas, codos y hombros, facilitando así la sincronización de los movi
-mientos.
+mientos.<br>
  La comunicación entre el sistema de visión y los actuadores del robot se realiza
  a través de una conexión Wi-Fi y Bluetooth, lo que permite una transmisión de
  datos eficiente, aunque con ciertas limitaciones en la sincronización. Además,
