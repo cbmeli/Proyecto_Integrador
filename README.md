@@ -28,3 +28,16 @@ miento.
  por computadora y control de servomotores, ejecutando los movimientos de
  forma secuencial.
 </div>
+
+## Desarrollo 
+
+###  Implementación de prototipo: esqueleto robótico
+<div align="justify">
+ En el desarrollo del proyecto, se empleó un prototipo de esqueleto robótico
+ impreso en 3D, diseñado para la integración de servomotores en sus articulaciones.
+ Además, se implementó visión por computadora para la detección y
+ análisis de los movimientos humanos, permitiendo la replicación de estos en el
+ robot mediante el control de los actuadores(servomotores).
+ </div>
+
+
