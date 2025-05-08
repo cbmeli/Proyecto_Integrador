@@ -1,12 +1,6 @@
 # Proyecto_Integrador
 Documentación del proyecto integrador:  Replicación de movimientos con robot 3D y visión por computadora.
 ## Introducción
-permitiendo la creación de sistemas que imitan la anatomía y los movimientos
- humanos. Esta no solo tiene aplicaciones en la industria del entretenimiento y
- la educación, sino que también se extiende a extensos campos. En este contexto,
- el desarrollo de un esqueleto humanoide robótico que pueda emular los movi
-mientos humanos se presenta como un desafío técnico y científico con una gran
- relevancia.
  El presente proyecto se centra en el diseño y la implementación de un esque
 leto humanoide robótico en 3D, equipado con servomotores que permiten la
  imitación de movimientos humanos. A pesar de que la replicación de estos mo
