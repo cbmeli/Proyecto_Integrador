@@ -21,3 +21,9 @@ teracción y el control del sistema, ofreciendo una interfaz más amigable para
  abriendo nuevas vías para el desarrollo de tecnologías asistivas y de entreteni
 miento.
 </div>
+
+## Objetivo 
+
+ Desarrollar un robot que replique los movimientos humanos mediante visión
+ por computadora y control de servomotores, ejecutando los movimientos de
+ forma secuencial.
