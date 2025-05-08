@@ -23,7 +23,8 @@ miento.
 </div>
 
 ## Objetivo 
-
+<div align="justify">
  Desarrollar un robot que replique los movimientos humanos mediante visión
  por computadora y control de servomotores, ejecutando los movimientos de
  forma secuencial.
+</div>
