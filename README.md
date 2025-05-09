@@ -52,12 +52,12 @@ En Python, los sockets se implementan en el módulo socket. Para crear un socket
 
 1) Importar el módulo socket: ***import socket***
 1) Crear un objeto socket:<br>
- ***sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)***
+ ***sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)*** <br>
  Donde: el primer argumento indica que se usará el protocolo IP versión
  4 y el segundo argumento indica que se utiliza el protocolo de transporte
  TCP.
 1) Conectar el socket con la ESP32: <br>
- ***sock.connect(( dirección IP, Puerto))***
+ ***sock.connect(( dirección IP, Puerto))*** <br>
  En este caso se especificó la dirección ip de la ESP32 y el puerto 80.
 1) Para enviar datos con el socket se programó la siguiente línea de código: <br>
  **sock.sendall(dato.encode())**
