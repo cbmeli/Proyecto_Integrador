@@ -77,4 +77,8 @@ La estimación de la postura humana es el proceso de detección y seguimiento de
 MediaPipe es un marco de aprendizaje automático multiplataforma y de código abierto. Uno de sus modelos, MediaPipe Stance, es capaz de identificar hasta 33 puntos de referencia en 3D del cuerpo humano, como la cabeza, los hombros, los codos, las muñecas, las manos y las caderas, lo que permite estimar con precisión la postura de una persona.
 </div> 
 
+<div align="center">
+  <img src="https://github.com/cbmeli/Proyecto_Integrador/raw/main/puntos.png" alt="Puntos de referencia" width="500">
+  <p><em>Figura 2. Puntos de referencia 3D predefinidos para la estimación de la postura humana.</em></p>
+</div>
 
