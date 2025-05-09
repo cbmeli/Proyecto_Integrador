@@ -63,6 +63,9 @@ En Python, los sockets se implementan en el módulo socket. Para crear un socket
  **sock.sendall(dato.encode())**
 1)  Finalmente, se cierra el socket: ***sock.close()***
 
+>[!IMPORTANT]
+>
+>El socket actúa como cliente, iniciando la conexión con la ESP32. Es decir, establece ese canal de comunicación, vinculándose a una dirección IP y a un puerto especifico.
 
 
 
