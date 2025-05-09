@@ -69,10 +69,12 @@ En Python, los sockets se implementan en el módulo socket. Para crear un socket
 
 ###  Reconocimiento eficiente usando MediaPipe y OpenCV.
 
+<div align="justify">
 La visión por computadora es un campo que permite a los equipos informáticos interpretar y comprender su entorno. A través del uso de algoritmos avanzados y técnicas de aprendizaje automático, estos sistemas son capaces de analizar imágenes y videos para llevar a cabo tareas complejas, como la detección de rostros y cuerpos humanos. En el desarrollo de este proyecto, se empleó la biblioteca OpenCV debido a su eficiencia en el procesamiento de video. <br>
 La función ***cv2.VideoCapture()*** es esencial para capturar un vídeo desde una cámara, basta con crear un objeto que contenga dicha función y pasar como argumento el índice de cámara (0 para la cámara predeterminada). <br>
 
 La estimación de la postura humana es el proceso de detección y seguimiento de puntos de referencia del cuerpo humano en imágenes y vídeos, para esta técnica de visión artificial se utilizó **MediaPipe**. Los puntos clave detectados suelen incluir articulaciones como codos, rodillas, hombros y tobillos. <br>
 MediaPipe es un marco de aprendizaje automático multiplataforma y de código abierto. Uno de sus modelos, MediaPipe Stance, es capaz de identificar hasta 33 puntos de referencia en 3D del cuerpo humano, como la cabeza, los hombros, los codos, las muñecas, las manos y las caderas, lo que permite estimar con precisión la postura de una persona.
+</div> 
 
 
