@@ -1,4 +1,4 @@
-# Proyecto_Integrador
+# Proyecto Integrador
 Documentación del proyecto integrador:  Replicación de movimientos con robot 3D y visión por computadora.
 ## Introducción
 <div align="justify">
@@ -39,7 +39,9 @@ miento.
  análisis de los movimientos humanos, permitiendo la replicación de estos en el
  robot mediante el control de los actuadores(servomotores).
  </div>
-![Descripción de la imagen](prototipo2.jpg)
+ 
+![Prototipo](imagenes/prototipo2.jpg)
+
 
 
 
