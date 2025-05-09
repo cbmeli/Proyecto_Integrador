@@ -40,7 +40,7 @@ miento.
  robot mediante el control de los actuadores(servomotores).
  </div>
  
-![Prototipo](imagenes/prototipo2.jpg)
+![Prototipo](https://github.com/cbmeli/Proyecto_Integrador/raw/main/prototipo2.jpg)
 
 
 
