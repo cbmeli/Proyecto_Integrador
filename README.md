@@ -82,3 +82,8 @@ MediaPipe es un marco de aprendizaje automático multiplataforma y de código ab
   <p><em>Figura 2. Puntos de referencia 3D predefinidos para la estimación de la postura humana.</em></p>
 </div>
 
+## Conclusión
+
+En conclusión, la contribución de este proyecto no solo radica en el desarrollo de un esqueleto humanoide robótico, sino también en su potencial para influir en múltiples áreas, desde la investigación y la educación hasta diversas aplicaciones prácticas en la vida cotidiana. Al abordar los desafíos actuales en la robótica humanoide, este proyecto puede facilitar el camino para innovaciones futuras que mejoren la interacción entre humanos y robots. Además, la integración de tecnologías como la comunicación inalámbrica, visión por computadora y el procesamiento en tiempo real refuerza la versatilidad del sistema.
+
+
