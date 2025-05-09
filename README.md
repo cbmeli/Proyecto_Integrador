@@ -2,31 +2,19 @@
 Documentación del proyecto integrador:  Replicación de movimientos con robot 3D y visión por computadora.
 ## Introducción
 <div align="justify">
- El presente proyecto se centra en el diseño y la implementación de un esque
-leto humanoide robótico en 3D, equipado con servomotores que permiten la
- imitación de movimientos humanos. A pesar de que la replicación de estos mo
-vimientos no es completamente precisa y se enfrenta a un ligero retraso en la
- respuesta, el sistema demuestra una notable capacidad para emular la dinámica
- del cuerpo humano. Para lograr esta imitación, se ha integrado un sistema de
- visión por computadora que permite al robot detectar puntos clave del cuerpo,
- como muñecas, codos y hombros, facilitando así la sincronización de los movi
-mientos.<br>
- La comunicación entre el sistema de visión y los actuadores del robot se realiza
- a través de una conexión Wi-Fi y Bluetooth, lo que permite una transmisión de
- datos eficiente, aunque con ciertas limitaciones en la sincronización. Además,
- se ha incorporado un módulo ESP32 y una pantalla LCD, que mejoran la in
-teracción y el control del sistema, ofreciendo una interfaz más amigable para
- el usuario. Este proyecto no solo busca avanzar en la robótica humanoide, sino
- también explorar las posibilidades de interacción entre humanos y máquinas,
- abriendo nuevas vías para el desarrollo de tecnologías asistivas y de entreteni
-miento.
+ El presente proyecto se centra en el diseño y la implementación de un esqueleto humanoide robótico en 3D, equipado con servomotores que permiten la imitación de movimientos 
+ humanos. A pesar de que la replicación de estos movimientos no es completamente precisa y se enfrenta a un ligero retraso en la respuesta, el sistema demuestra una notable 
+ capacidad para emular la dinámica del cuerpo humano. Para lograr esta imitación, se ha integrado un sistema de visión por computadora que permite al robot detectar puntos 
+ clave del cuerpo, como muñecas, codos y hombros, facilitando así la sincronización de los movimientos.<br>
+ La comunicación entre el sistema de visión y los actuadores del robot se realiza a través de una conexión Wi-Fi y Bluetooth, lo que permite una transmisión de datos 
+ eficiente, aunque con ciertas limitaciones en la sincronización. Además, se ha incorporado un módulo ESP32 y una pantalla LCD, que mejoran la interacción y el control del 
+ sistema, ofreciendo una interfaz más amigable para el usuario. Este proyecto no solo busca avanzar en la robótica humanoide, sino también explorar las posibilidades de 
+ interacción entre humanos y máquinas, abriendo nuevas vías para el desarrollo de tecnologías asistivas y de entretenimiento.
 </div>
 
 ## Objetivo 
 <div align="justify">
- Desarrollar un robot que replique los movimientos humanos mediante visión
- por computadora y control de servomotores, ejecutando los movimientos de
- forma secuencial.
+ Desarrollar un robot que replique los movimientos humanos mediante visión por computadora y control de servomotores, ejecutando los movimientos de forma secuencial.
 </div>
 
 ## Desarrollo 
@@ -34,18 +22,32 @@ miento.
 ###  Implementación de prototipo: esqueleto robótico
 
 <div align="justify">
- En el desarrollo del proyecto, se empleó un prototipo de esqueleto robótico
- impreso en 3D, diseñado para la integración de servomotores en sus articulaciones.
- Además, se implementó visión por computadora para la detección y
- análisis de los movimientos humanos, permitiendo la replicación de estos en el
- robot mediante el control de los actuadores(servomotores).
- </div>
- <br>
+ En el desarrollo del proyecto, se empleó un prototipo de esqueleto robótico impreso en 3D, diseñado para la integración de servomotores en sus articulaciones.
+ Además, se implementó visión por computadora para la detección y análisis de los movimientos humanos, permitiendo la replicación de estos en el robot mediante el control de 
+ los actuadores(servomotores).
+</div>
+<br>
  
 <div align="center">
   <img src="https://github.com/cbmeli/Proyecto_Integrador/raw/main/prototipo2.jpg" alt="Prototipo del robot" width="500">
   <p><em>Figura 1. Prototipo robótico impreso en 3D con servomotores integrados.</em></p>
 </div>
+
+###  Interconexión entre Arduino (ESP32) y Python mediante Wi-Fi y Bluethooth.
+#### Importación de librerías en Python
+
+Para el procesamiento de imágenes y videos en tiempo real, se instalaron y configuraron las siguientes herramientas en el entorno de Python:
+* OpenCV: Se integró la biblioteca OpenCV para disponer de la herramienta cv2, que permite el análisis y procesamiento eficiente de imágenes
+ y videos en tiempo real.
+* MediaPipe: Se implementó MediaPipe para facilitar el análisis de secuencias de video en tiempo real. Esta herramienta proporciona funciones
+ avanzadas como el reconocimiento de gestos, el seguimiento facial y corporal, así como la detección de objetos, lo que optimiza la interpretación
+ de movimientos.
+* Time: Se usa para calcular la velocidad de movimiento del rostro detectado.
+>[!NOTE]
+>
+>Para establecer la comunicación Wi-Fi entre Arduino (ESP32) y Python, se utilizó el protocolo de sockets, que permite el intercambio de datos
+ a través de una red.
+
 
 
 
