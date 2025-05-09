@@ -48,6 +48,21 @@ Para el procesamiento de imágenes y videos en tiempo real, se instalaron y conf
 >Para establecer la comunicación Wi-Fi entre Arduino (ESP32) y Python, se utilizó el protocolo de sockets, que permite el intercambio de datos
  a través de una red.
 
+En Python, los sockets se implementan en el módulo socket. Para crear un socket en Python se siguieron los siguientes pasos:
+
+1) Importar el módulo socket: ***import socket***
+1) Crear un objeto socket:<br>
+ ***sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)***
+ Donde: el primer argumento indica que se usará el protocolo IP versión
+ 4 y el segundo argumento indica que se utiliza el protocolo de transporte
+ TCP.
+1) Conectar el socket con la ESP32: <br>
+ ***sock.connect(( dirección IP, Puerto))***
+ En este caso se especificó la dirección ip de la ESP32 y el puerto 80.
+1) Para enviar datos con el socket se programó la siguiente línea de código: <br>
+ **sock.sendall(dato.encode())**
+1)  Finalmente, se cierra el socket: ***sock.close()***
+
 
 
 
