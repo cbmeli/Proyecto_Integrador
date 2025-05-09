@@ -43,10 +43,9 @@ miento.
  <br>
  
 <div align="center">
-  <img src="https://github.com/cbmeli/Proyecto_Integrador/raw/main/prototipo2.jpg" alt="Prototipo del robot" width="500" style="border: 2px solid #800080; border-radius: 10px;">
+  <img src="https://github.com/cbmeli/Proyecto_Integrador/raw/main/prototipo2.jpg" alt="Prototipo del robot" width="500">
   <p><em>Figura 1. Prototipo robótico impreso en 3D con servomotores integrados.</em></p>
 </div>
-
 
 
 
