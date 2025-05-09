@@ -87,7 +87,8 @@ MediaPipe es un marco de aprendizaje automático multiplataforma y de código ab
 <div align="justify">
 En conclusión, la contribución de este proyecto no solo radica en el desarrollo de un esqueleto humanoide robótico, sino también en su potencial para influir en múltiples áreas, desde la investigación y la educación hasta diversas aplicaciones prácticas en la vida cotidiana. Al abordar los desafíos actuales en la robótica humanoide, este proyecto puede facilitar el camino para innovaciones futuras que mejoren la interacción entre humanos y robots. Además, la integración de tecnologías como la comunicación inalámbrica, visión por computadora y el procesamiento en tiempo real refuerza la versatilidad del sistema. </div>
 
-**Link reporte final**: [Documentación oficial.](https://github.com/cbmeli/Proyecto_Integrador/raw/main/Reporte_Final_Proyecto_Integrador.pdf)
+**Link reporte final**: [Documentación oficial.](https://github.com/cbmeli/Proyecto_Integrador/blob/main/Reporte_Final_Proyecto_Integrador.pdf)
+
 
 
 
