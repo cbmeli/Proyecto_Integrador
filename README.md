@@ -35,7 +35,7 @@ Documentación del proyecto integrador:  Replicación de movimientos con robot 3
 
 ###  Interconexión entre Arduino (ESP32) y Python mediante Wi-Fi y Bluethooth.
 #### Importación de librerías en Python
-
+<div align="justify">
 Para el procesamiento de imágenes y videos en tiempo real, se instalaron y configuraron las siguientes herramientas en el entorno de Python:
 * OpenCV: Se integró la biblioteca OpenCV para disponer de la herramienta cv2, que permite el análisis y procesamiento eficiente de imágenes
  y videos en tiempo real.
@@ -43,6 +43,7 @@ Para el procesamiento de imágenes y videos en tiempo real, se instalaron y conf
  avanzadas como el reconocimiento de gestos, el seguimiento facial y corporal, así como la detección de objetos, lo que optimiza la interpretación
  de movimientos.
 * Time: Se usa para calcular la velocidad de movimiento del rostro detectado.
+</div>
 >[!NOTE]
 >
 >Para establecer la comunicación Wi-Fi entre Arduino (ESP32) y Python, se utilizó el protocolo de sockets, que permite el intercambio de datos
