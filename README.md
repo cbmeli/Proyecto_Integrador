@@ -43,11 +43,11 @@ Para el procesamiento de imágenes y videos en tiempo real, se instalaron y conf
  avanzadas como el reconocimiento de gestos, el seguimiento facial y corporal, así como la detección de objetos, lo que optimiza la interpretación
  de movimientos.
 * Time: Se usa para calcular la velocidad de movimiento del rostro detectado.
-</div>
 >[!NOTE]
 >
 >Para establecer la comunicación Wi-Fi entre Arduino (ESP32) y Python, se utilizó el protocolo de sockets, que permite el intercambio de datos
  a través de una red.
+ </div>
 
 
 
